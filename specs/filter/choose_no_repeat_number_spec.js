@@ -9,7 +9,6 @@ describe('choose_no_repeat_number', function() {
   it('从collection中选出不重复的数字', function() {
 
     var result = choose_no_repeat_number(collection);
-
     expect(result).toEqual([1,2,3,4]);
   })
 });
